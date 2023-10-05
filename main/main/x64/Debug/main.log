@@ -1,0 +1,25 @@
+﻿  main.cpp
+C:\Users\kolup\lab-2-tripo\main\main\main.cpp(2,1): warning C4005: _UNICODE: изменение макроопределения
+C:\Users\kolup\lab-2-tripo\main\main\main.cpp(2,1): message : "_UNICODE" ранее объявлен в командной строке
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\xstring(2765,53): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.36.32532\include\xstring(2621,17): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\kolup\lab-2-tripo\main\main\main.cpp(235,18): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\kolup\lab-2-tripo\main\main\main.cpp(235,18): message : см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "InformationAboutProcess"
+  main.vcxproj -> C:\Users\kolup\lab-2-tripo\main\x64\Debug\main.exe
