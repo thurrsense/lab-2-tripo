@@ -1,1 +1,1 @@
-var 16	привилегии (privileges)	уровень целостности (mandatory label)
+var 17	уровень целостности (mandatory label) и список контроля доступа (ACL)
